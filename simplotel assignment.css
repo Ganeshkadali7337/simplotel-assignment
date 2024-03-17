@@ -10,10 +10,11 @@
     background-color: #fe7170;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .nav-bars {
-    width: 30px;
+    width: 10px;
 }
 
 .nav-list {
@@ -21,11 +22,12 @@
     margin-left: 0px;
     padding-left: 0px;
     display: flex;
-    display: none;
 }
 
 ul li {
     font-weight: bold;
+    font-size: 10px;
+    margin-right: 10px;
 }
 
 .bg-container {
