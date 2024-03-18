@@ -34,15 +34,15 @@ ul li {
     background-image: linear-gradient(to right, #ffefb4, #feb2f1);
 }
 
-h1 {
+.heading1 {
     font-family: Arial;
     letter-spacing: 4px;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 26px;
     margin-top: 20px;
 }
 
-p {
+.para1 {
     font-family: Arial;
     font-size: 12px;
     line-height: 20px;
@@ -82,6 +82,82 @@ p {
     order: 1;
 }
 
+.images-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.image1 {
+    width: 130px;
+    height: 104px;
+    margin-bottom: 4px;
+}
+
+.image3 {
+    width: 130px;
+    height: 212px;
+    margin-left: 10px;
+    margin-bottom: 4px;
+}
+
+.card-container {
+    background-color: #fe7170;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.card-button {
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.heading2 {
+    font-family: Arial;
+    letter-spacing: 4px;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.para2 {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.page2 {
+    background-image: linear-gradient(to right, #ffefb4, #feb2f1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 22px;
+}
+
+.arrow-icon {
+    width: 20px;
+    margin-left: 8px;
+}
+
 @media(min-width:576px) {
     .container-2 {
         flex-direction: row;
@@ -118,8 +194,34 @@ p {
         margin-right: 20px;
     }
 
-    h1 {
+    .heading1 {
         font-size: 24px;
+    }
+
+    .page2 {
+        flex-direction: row;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .card-container {
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .heading2 {
+        font-size: 16px;
+    }
+
+    .image1 {
+        width: 135px;
+        height: 108px;
+    }
+
+    .image3 {
+        width: 135px;
+        height: 220px;
+        margin-left: 18px;
     }
 }
 
@@ -142,12 +244,12 @@ p {
         width: 40px;
     }
 
-    h1 {
-        font-size: 30px;
+    .heading1 {
+        font-size: 35px;
         margin-top: 35px;
     }
 
-    p {
+    .para1 {
         font-size: 16px;
         margin-bottom: 45px;
         margin-top: 45px;
@@ -163,6 +265,38 @@ p {
     .content {
         padding: 30px;
     }
+
+    .page2 {
+        flex-direction: row;
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .card-container {
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .heading2 {
+        font-size: 24px;
+    }
+
+    .image1 {
+        width: 180px;
+        height: 130px;
+        margin-bottom: 8px;
+    }
+
+    .image3 {
+        width: 190px;
+        height: 268px;
+        margin-left: 22px;
+        margin-bottom: 8px;
+    }
+
+    .container-2 {
+        justify-content: center;
+    }
 }
 
 @media(min-width: 992px) {
@@ -176,24 +310,25 @@ p {
     }
 
     ul li {
-        font-size: 20px;
-        margin-right: 40px;
+        font-size: 22px;
+        margin-right: 50px;
     }
 
     .nav-bars {
-        width: 50px;
+        width: 30px;
     }
 
-    h1 {
-        font-size: 36px;
-        margin-top: 35px;
+    .heading1 {
+        font-size: 40px;
+        margin-top: 30px;
     }
 
-    p {
+    .para1 {
         font-size: 18px;
         margin-bottom: 50px;
         margin-top: 50px;
         line-height: 30px;
+        width: 80%;
     }
 
     .button {
@@ -203,6 +338,42 @@ p {
     }
 
     .content {
-        padding: 50px;
+        padding-left: 45px;
     }
+
+    .container-2 {
+        justify-content: center;
+    }
+
+    .page2 {
+        flex-direction: row;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        justify-content: center;
+    }
+
+    .card-container {
+        margin-top: 0px;
+        margin-left: 40px;
+        max-width: 300px;
+
+    }
+
+    .heading2 {
+        font-size: 30px;
+    }
+
+    .image1 {
+        width: 235px;
+        height: 188px;
+        margin-bottom: 8px;
+    }
+
+    .image3 {
+        width: 250px;
+        height: 384px;
+        margin-left: 22px;
+        margin-bottom: 8px;
+    }
+
 }
